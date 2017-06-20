@@ -1,0 +1,19 @@
+{
+  "name": "geolocation",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Tanmoy Mitra",
+  "dependencies": {
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.4",
+    "express-react-views": "^0.10.2",
+    "external-ip": "^1.1.0",
+    "morgan": "^1.7.0",
+    "node-where": "^1.1.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  }
+}
