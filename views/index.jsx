@@ -8,6 +8,7 @@ class Index extends React.Component {
         <h1>{this.props.title}</h1>
         <p>This is a simple example of React with Express, how to get the browser's Geo Location</p>
         <table class="tg">
+          <tbody>
           <tr>
             <td class="tg-yw4l"><strong>Public IP</strong></td>
             <td class="tg-yw4l">{this.props.ip}</td>
@@ -40,6 +41,7 @@ class Index extends React.Component {
             <td class="tg-yw4l">Zip Code</td>
             <td class="tg-yw4l">{this.props.zip}</td>
           </tr>
+          </tbody>
         </table>
       </Layout>
     );

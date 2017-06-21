@@ -11,6 +11,7 @@ exports.geolocation = function(req, res, next){
         getIP(function (err, ip) {
             if (err) { throw err; }
             where.is(ip, function(err, result) {
+                if (err) { throw err; }
                 req.geoip = ip;
                 req.geoLoc = result.attributes;
                 store.set('geoData', result.attributes);

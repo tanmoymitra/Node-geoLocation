@@ -1,6 +1,6 @@
 exports.index = function(req, res){
   res.render('index', { 
-    title: 'React + Express + GeoLocation',
+    title: 'Node.js + Express + React View Engine + Store.js',
     ip: req.geoip,
     countryCode: req.geoLoc['countryCode'],
     country: req.geoLoc['country'],
