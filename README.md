@@ -1,5 +1,7 @@
 # Node-geoLocation
-This is a simple example of React with Express to get the browser's Geo Location
+This is simple example how to get geo location. 
+I used `express-react-views` package as express view to display result. 
+
 ```
  npm install
  npm start
