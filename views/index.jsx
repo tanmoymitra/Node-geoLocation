@@ -6,7 +6,7 @@ class Index extends React.Component {
     return (
       <Layout title={this.props.title}>
         <h1>{this.props.title}</h1>
-        <p>This is a simple example of React with Express to get the browser's Geo Location</p>
+        <p>This is a simple example of React with Express, how to get the browser's Geo Location</p>
         <table class="tg">
           <tr>
             <td class="tg-yw4l"><strong>Public IP</strong></td>
