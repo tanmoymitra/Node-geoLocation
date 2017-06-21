@@ -19,7 +19,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'jsx');
 app.engine('jsx', reactViews.createEngine());
 app.use(logger('dev'));
-app.use(geo.geolocation);
+//app.use(geo.geolocation);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // development only
@@ -30,7 +30,7 @@ if ('development' == app.get('env')) {
 app.locals.something = 'value';
 app.locals.qaz = 'qut';
 
-app.get('/', routes.index);
+app.get('/', geo.geolocation ,routes.index);
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
